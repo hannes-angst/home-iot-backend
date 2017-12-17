@@ -1,0 +1,150 @@
+{
+  "port": 2345,
+  "harmony": {
+    "url": "192.168.13.125",
+    "status": "on",
+    "activities": [
+      {
+        "id": "20127819",
+        "label": "XBOX",
+        "selected": false
+      },
+      {
+        "id": "20677771",
+        "label": "FireTV",
+        "selected": false
+      },
+      {
+        "id": "20127830",
+        "label": "WII",
+        "selected": false
+      },
+      {
+        "id": "28232857",
+        "label": "Sky",
+        "selected": false
+      },
+      {
+        "id": "20127757",
+        "label": "Fernsehen",
+        "selected": false
+      }
+    ],
+    "power": {
+      "id": "-1",
+      "label": "PowerOff"
+    }
+  },
+  "mqtt": {
+    "url": "mqtt://127.0.0.1"
+  },
+  "devices": [
+    {
+      "name": "Multimedia",
+      "baseURL": "/angst/devices/001F8E45",
+      "type": "relay",
+      "states": [
+        "off",
+        "on",
+        "on",
+        "off",
+        "on",
+        "off",
+        "off",
+        "off"
+      ],
+      "names": [
+        "LED",
+        "TV",
+        "AV Receiver",
+        "Sky Box",
+        "FireTV",
+        "XBOX",
+        "WII U",
+        "WII U's Senseless Tablet Thingy"
+      ],
+      "app": "Relay",
+      "version": "1.0.0",
+      "mac": "5c:cf:7f:1f:8e:45",
+      "ip": "192.168.13.124",
+      "base": "/angst/devices/001F8E45/"
+    },
+    {
+      "name": "Ronja Basteltisch",
+      "baseURL": "/angst/devices/ronja/lampe",
+      "type": "switch",
+      "status": "off",
+      "onTime": 1506692757988,
+      "offTime": 1506700786293
+    },
+    {
+      "name": "Draußen",
+      "baseURL": "/angst/devices/000FCC03",
+      "type": "environment",
+      "temperature": 3.7,
+      "humidity": 96.4,
+      "last": 1511888837439,
+      "status": "OK",
+      "lastSuccess": 1511888837439
+    },
+    {
+      "name": "Ronja",
+      "baseURL": "/angst/devices/0016D615",
+      "type": "environment",
+      "temperature": 21.7,
+      "humidity": 46.5,
+      "last": 1513513467846,
+      "status": "OK",
+      "lastSuccess": 1513513467846
+    },
+    {
+      "name": "Malina",
+      "baseURL": "/angst/devices/000C4BAB",
+      "type": "environment",
+      "temperature": 20.29,
+      "humidity": 48.79,
+      "last": 1513513268113,
+      "status": "OK",
+      "lastSuccess": 1513513268113
+    },
+    {
+      "name": "Wohnzimmer",
+      "baseURL": "/angst/devices/000FCB7B",
+      "type": "environment",
+      "temperature": 22.29,
+      "humidity": 30.5,
+      "last": 1513513369412,
+      "status": "OK",
+      "lastSuccess": 1513513369412
+    },
+    {
+      "name": "Schlafzimmer",
+      "baseURL": "/angst/devices/0086460C",
+      "type": "environment",
+      "temperature": 20.79,
+      "humidity": 46.59,
+      "last": 1513513749991,
+      "status": "OK",
+      "lastSuccess": 1513513749991
+    },
+    {
+      "name": "Bad",
+      "baseURL": "/angst/devices/0016F462",
+      "type": "environment",
+      "temperature": 21.1,
+      "humidity": 49.29,
+      "last": 1513513621454,
+      "status": "OK",
+      "lastSuccess": 1513513621454
+    },
+    {
+      "name": "Aquarium",
+      "baseURL": "/angst/devices/000FCC18",
+      "type": "environment",
+      "temperature": 23.93,
+      "last": 1513513282498,
+      "status": "OK",
+      "lastSuccess": 1513513282498
+    }
+  ]
+}

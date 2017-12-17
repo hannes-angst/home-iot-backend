@@ -1,0 +1,13 @@
+{
+  "name": "web2mqtt",
+  "description": "websocket-mqqt integrator",
+  "author": "Hannes Angst",
+  "version": "1.0.0",
+  "license": "APL 2.0",
+  "dependencies": {
+    "ltx": "^2.2.0",
+    "harmonyhubjs-client": "1.1.10",
+    "express": "3.x",
+    "socket.io": "*"
+  }
+}
