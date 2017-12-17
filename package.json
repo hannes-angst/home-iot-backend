@@ -3,7 +3,11 @@
   "description": "websocket-mqqt integrator",
   "author": "Hannes Angst",
   "version": "1.0.0",
-  "license": "APL 2.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hannes-angst/home-iot-backend.git"
+  },
   "dependencies": {
     "ltx": "^2.2.0",
     "harmonyhubjs-client": "1.1.10",
